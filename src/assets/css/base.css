@@ -1,0 +1,134 @@
+.test{
+  padding-top: 10px;
+  height: 100vh;
+  box-sizing: border-box;
+  background: #e6eef4;
+  color: #999;
+}
+
+.nt-btn{
+  background: #e6eef4;
+  border-radius: 5px;
+  background: linear-gradient(145deg, #f6ffff, #cfd6dc)!important;
+  box-shadow:  5px 5px 10px #c4cacf,
+  -5px -5px 10px #ffffff;
+}
+
+.nt-text{
+  border-radius: 5px;
+  background: #e6eef4;
+  box-shadow:  5px 5px 10px #c4cacf,
+  -5px -5px 10px #ffffff;
+}
+
+.nt-active2{
+  background: #f4cded!important;
+  box-shadow: inset 8px 8px 16px #cfaec9,
+  inset -8px -8px 16px #ffecff;
+}
+
+.nt-active{
+  background: #e6eef4!important;
+  box-shadow: inset 8px 8px 16px #c4cacf,
+  inset -8px -8px 16px #ffffff;
+  user-select: none;
+}
+
+.login-btn:active{
+  background: #e6eef4!important;
+  box-shadow: inset 8px 8px 16px #c4cacf,
+  inset -8px -8px 16px #ffffff;
+  user-select: none;
+}
+
+.popover{
+  padding: 0 16px;
+  min-height: 44px;
+  width: 200px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.type{
+  font-size: 14px;
+  background: #F9F9F9;
+  padding: 8px 15px;
+  margin-left: 10px;
+  font-weight: normal;
+}
+.user-wrapper {
+  width: 3.75rem;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  margin: 10px auto 0;
+  max-height: calc(100vh - 290px);
+  overflow-y: auto;
+}
+
+.user-item {
+  padding: 8px 0;
+  line-height: 18px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.activeStatus{
+  box-shadow: inset 0px 0px 50px pink;
+}
+
+.wrap {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-image: radial-gradient(white 0%, blue 150%);
+  animation-name: ball;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.shadow {
+  width: 50px;
+  height: 15px;
+  border-radius: 50%;
+  background: #333333;
+  margin-top: 5px;
+  filter: blur(2px);
+  animation-name: shadow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.van-cell__title {
+  width: 100px;
+}
+
+@keyframes ball {
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes shadow {
+  to {
+    opacity: 0.5;
+    width: 55px;
+    height: 20px;
+    /* filter: blur(10px); */
+  }
+}
+
