@@ -1,4 +1,3 @@
-<script src="../../../../../搜狗高速下载/index.js"></script>
 <template>
   <div class="authcode">
     <div class="nt-btn login-btn" style="line-height: 40px;"  @click='getCode'>获得authcode</div>
@@ -31,20 +30,8 @@
     },
     methods: {
       getCode() {
-        /*window.console.log(dd.env.platform);
-        dd.ready(() => {
-          dd.runtime.permission.requestAuthCode({
-            corpId: 1, // 企业id
-            onSuccess: (info) => {
-              this.authCode = info.code
-              //this.userCode += info.code // 通过该免登授权码可以获取用户身份
-            },
-            onFail: (error) => {
-              window.console.log(JSON.stringify(error))
-            }
-          });
-        })*/
-        window.console.log(dd);
+
+        window.console.log(this.$route);
 
         dd.ready(() => {
           window.console.log("ready");
@@ -61,10 +48,6 @@
         })
 
         window.console.log(dd.version());
-
-
-
-
 
       }
     },

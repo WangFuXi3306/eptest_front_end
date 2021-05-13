@@ -15,9 +15,9 @@ Vue.use(Dialog);
 // axios.defaults.baseURL = process.env.baseURL || process.env.apiUrl || '';
 // axios.defaults.headers.common['Authorization'] = AUTH_TOKEN;
 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-axios.defaults.baseURL = "http://10.111.137.145:9090/ding-talk-api-checker/";
+//axios.defaults.baseURL = "http://10.111.137.145:9090/ding-talk-api-checker/";
 //axios.defaults.baseURL = "http://121.4.80.108:9090";
-//axios.defaults.baseURL = "/api";
+axios.defaults.baseURL = "/api";
 
 let config = {
 	baseURL: process.env.VUE_APP_BASE_API,

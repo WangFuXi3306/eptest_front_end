@@ -1,0 +1,33 @@
+.miniDescribe {
+    white-space: pre;
+    font-weight: lighter;
+
+}
+
+.describeTitle {
+    font-weight: bold;
+}
+
+/*测试按钮*/
+.testOnclick {
+    line-height: 40px;
+    height: 35px;
+    margin-top: 2px;
+    width: 40px;
+}
+
+.onclickTitle {
+    width: 380px;
+    line-height: 40px;
+}
+
+.borderRadius {
+    border: 2px #2c3e50 solid;
+    border-radius: 25px;
+}
+
+.selectList {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

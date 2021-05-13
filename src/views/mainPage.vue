@@ -31,6 +31,6 @@
         gotoGetContactUserInfo() {
           this.$router.push('/getContactUserInfo');
         }
-      }
+      },
     }
 </script>

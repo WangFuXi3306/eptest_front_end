@@ -29,7 +29,7 @@ module.exports = {
 			// 周 http://http://192.168.0.135:19001/ywh-h5/swagger-ui.html#!
 			'/api': {
 				//target: 'http://192.168.0.137:19001/ywh-h5/h5',
-        target: 'http://localhost:8081/hzdapi_test',
+        target: 'http://localhost:9090/hzdapi_test',
 				ws: true,
 				changeOrigin: true, // 是否跨域
 				pathRewrite: { // 重写路径
